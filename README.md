@@ -43,8 +43,29 @@ Files Written by Me: <a name="f1" />
 
 Instructions To Work: <a name="i1" />
 --------------------
+If you don't have git bash (or any other bash), start by downloading from [here](https://git-scm.com/downloads)  </br>
+Open git bash, or your system's local bash and navigate to a folder where you want to store your project files. </br>
 
+Once you find yourself in your working folder, execute the following command.
 
+```
+git clone -b data https://github.com/KhachDavid/cs400-p2.git
+```
+
+This fill add every file from the data branch. </br>
+You are going to need the following files: </br>
+	[Directory Data](https://github.com/KhachDavid/cs400-p2/tree/main/data) </br>
+	[DataDummy.java](https://github.com/KhachDavid/cs400-p2/blob/main/DataDummy.java) </br>
+	[DataWranglerTests.java](https://github.com/KhachDavid/cs400-p2/blob/main/DataWranglerTests.java) </br>
+	[QuestionDataReaderInterface.java](https://github.com/KhachDavid/cs400-p2/blob/main/QuestionDataReaderInterface.java) </br>
+
+Start by making your first commit to be check whether this works. </br> 
+Take your implemented tests and add them to the DataWranglerTests.java using the text editor of your choice. </br>
+
+Once you are done with that, execute the following command from your bash.
+```
+git push origin data
+``` 
 
 Additional Contributions: <a name="ac1" />
 -------------------------
