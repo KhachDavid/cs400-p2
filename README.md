@@ -49,17 +49,19 @@ Open git bash, or your system's local bash and navigate to a folder where you wa
 Once you find yourself in your working folder, execute the following command.
 
 ```
-git clone -b data https://github.com/KhachDavid/cs400-p2.git
+git clone -b backend https://github.com/KhachDavid/cs400-p2.git
 ```
 
-This fill add every file from the data branch. </br>
+This will add every file from the backend branch. </br>
 You are going to need the following files: </br>
-	[Directory Data](https://github.com/KhachDavid/cs400-p2/tree/main/data) </br>
-	[DataDummy.java](https://github.com/KhachDavid/cs400-p2/blob/main/DataDummy.java) </br>
-	[DataWranglerTests.java](https://github.com/KhachDavid/cs400-p2/blob/main/DataWranglerTests.java) </br>
-	[QuestionDataReaderInterface.java](https://github.com/KhachDavid/cs400-p2/blob/main/QuestionDataReaderInterface.java) </br>
+	[BackEndDeveloperTests.java](https://github.com/KhachDavid/cs400-p2/tree/main/data) </br>
+	[BackEndDummy.java](https://github.com/KhachDavid/cs400-p2/blob/main/DataDummy.java) </br>
+	[BackendInterface.java](https://github.com/KhachDavid/cs400-p2/blob/main/DataWranglerTests.java) </br>
+	In addition to all of those, you are going to need the files that define the behavior of the RedBlackTree </br>
+	As a starter, you can use the files from the Rotation Activity of Week6 </br>
+	If you don't have it, let me know ASAP through the Whatsapp chat and I will send it to you! </br>	
 
-Start by making your first commit to be check whether this works. </br> 
+Now, start by making your first commit to be check whether this works. </br> 
 Take your implemented tests and add them to the DataWranglerTests.java using the text editor of your choice. </br>
 
 Once you are done with that, execute the following commands from your bash.
@@ -73,7 +75,7 @@ git add .
 ```
 
 ```
-git commit -m "Added Test Files For Data Branch"
+git commit -m "Added Test Files For backend Branch"
 ```
 
 ```
@@ -81,8 +83,13 @@ git remote add origin https://github.com/KhachDavid/cs400-p2.git
 ```
 
 ```
-git push origin data
-``` 
+git push origin backend
+```
+
+You now have contributed your test methods to the your own branch. </br>
+Before you start, go to BackendDummy.java and create an Arraylist of random strings </br>
+Start off by adding the Red Black Tree data structure to your directory </br>
+Then work on the Remove behaviour, which is the main goal of your role. </br> 
 
 Additional Contributions: <a name="ac1" />
 -------------------------
@@ -130,6 +137,55 @@ Files Written by Me: <a name="f3" />
 
 Instructions To Work: <a name="i3" />
 --------------------
+If you don't have git bash (or any other bash), start by downloading from [here](https://git-scm.com/downloads)  </br>
+Open git bash, or your system's local bash and navigate to a folder where you want to store your project files. </br>
+
+Once you find yourself in your working folder, execute the following command.
+
+```
+git clone -b data https://github.com/KhachDavid/cs400-p2.git
+```
+
+This fill add every file from the data branch. </br>
+You are going to need the following files: </br>
+        [Directory Data](https://github.com/KhachDavid/cs400-p2/tree/main/data) </br>
+        [DataDummy.java](https://github.com/KhachDavid/cs400-p2/blob/main/DataDummy.java) </br>
+        [DataWranglerTests.java](https://github.com/KhachDavid/cs400-p2/blob/main/DataWranglerTests.java) </br>
+        [QuestionDataReaderInterface.java](https://github.com/KhachDavid/cs400-p2/blob/main/QuestionDataReaderInterface.java) </br>
+	[QuestionInterface.java](https://github.com/KhachDavid/cs400-p2/blob/main/QuestionInterface.java) </br>
+
+Start by making your first commit to be check whether this works. </br>
+Take your implemented tests for the proposal activity </br>
+Add them to the DataWranglerTests.java using the text editor of your choice. </br>
+
+Once you are done with that, execute the following commands from your bash.
+
+```
+git init
+```
+
+```
+git add .
+```
+
+```
+git commit -m "Added Test Files For backend Branch"
+```
+
+```
+git remote add origin https://github.com/KhachDavid/cs400-p2.git
+```
+
+```
+git push origin data
+```
+
+If you want your team members to access your commits, refer back to here. </br>
+You will be using this same exact pattern when committing your work. 
+
+You now have contributed your test methods to your own data branch. </br>
+Start the project off by making sense of all the .txt files. Convert them to CSV if necessary, but .txt should be fine. </br>
+Your main goal is to dump every single question to a List of Question abstract data types. </br>
 
 
 Additional Contributions: <a name="ac3" />
