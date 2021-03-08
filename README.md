@@ -7,21 +7,24 @@ In essence, it is a quizlet clone.
 
 1. [BackEnd Developer](#packageone)
 	1. [Files Written](#f1)
-	2. [Additional Contributions](#ac1)
-	3. [Signature](#s1)
+	2. [Instructions To Work On The Project](#i1)
+	3. [Additional Contributions](#ac1)
+	4. [Signature](#s1)
 2. [FrontEnd Developer](#packagetwo)
 	1. [Files Written](#f2)
-	2. [Additional Contributions](#ac2)
-	3. [Signature](#s2)
+	2. [Instructions To Work On The Project](#i2)
+	3. [Additional Contributions](#ac2)
+	4. [Signature](#s2)
 3. [Data Wrangler](#packagethree)
 	1. [Files Written](#f3)
-	2. [Additional Contributions](#ac3)
-	3. [Signature](#s3)
+	2. [Instructions To Work On The Project](#i3)
+	3. [Additional Contributions](#ac3)
+	4. [Signature](#s3)
 4. [Integration Manager](#sql-games)
 	1. [Complete List Of Files](#file-list)
-	2. [Instructions To Run The Project](#run)
-	3. [Team Member Contributions](#tmc)
-	4. [Signature](#s4)
+	3. [Instructions To Run The Project](#run)
+	4. [Team Member Contributions](#tmc)
+	5. [Signature](#s4)
 5. [Demo](#demo)
 
 </br></br></br></br>
@@ -35,6 +38,10 @@ Group: CF</br>
 Team: Adilnur Istekov, David Khachatryan, Abhimanyu Gupta</br>
 
 Files Written by Me: <a name="f1" />
+--------------------
+
+
+Instructions To Work: <a name="i1" />
 --------------------
 
 
@@ -80,6 +87,10 @@ Group: CF</br>
 Team: red</br>
 
 Files Written by Me: <a name="f3" />
+--------------------
+
+
+Instructions To Work: <a name="i1" />
 --------------------
 
 
