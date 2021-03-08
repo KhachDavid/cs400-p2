@@ -1,0 +1,153 @@
+# cs400-p2
+
+This repository is contains the second group project of CS400-S21 created by the CF team.
+In essence, it is a quizlet clone.
+
+# Table of Contents
+
+1. [BackEnd Developer](#packageone)
+	1. [Files Written](#f1)
+	2. [Additional Contributions](#ac1)
+	3. [Signature](#s1)
+2. [FrontEnd Developer](#packagetwo)
+	1. [Files Written](#f2)
+	2. [Additional Contributions](#ac2)
+	3. [Signature](#s2)
+3. [Data Wrangler](#packagethree)
+	1. [Files Written](#f3)
+	2. [Additional Contributions](#ac3)
+	3. [Signature](#s3)
+4. [Integration Manager](#sql-games)
+	1. [Complete List Of Files](#file-list)
+	2. [Instructions To Run The Project](#run)
+	3. [Team Member Contributions](#tmc)
+	4. [Signature](#s4)
+5. [Demo](#demo)
+
+</br></br></br></br>
+## BackEnd Developer<a name="packageone" />
+
+========================================================
+
+Name of BackEndDeveloper: Zhiyuan Han</br>
+@wisc.edu Email of BackEndDeveloper: zhan98@wisc.edu</br>
+Group: CF</br>
+Team: Adilnur Istekov, David Khachatryan, Abhimanyu Gupta</br>
+
+Files Written by Me: <a name="f1" />
+--------------------
+
+
+
+Additional Contributions: <a name="ac1" />
+-------------------------
+
+
+Signature: <a name="s1" />
+----------
+Signature: Zhiyuan Han
+
+</br></br></br></br>
+## FrontEnd Developer<a name="packagetwo" />
+
+========================================================
+
+Name of FrontEndDeveloper: David Khachatryan</br>
+@wisc.edu Email of FrontEndDeveloper: dkhachatryan@wisc.edu</br>
+Group: CF</br>
+Team: red</br>
+
+Files Written by Me: <a name="f2" />
+--------------------
+
+
+Additional Contributions: <a name="ac2" />
+-------------------------
+
+
+Signature: <a name="s2" />
+----------
+Signature: David Khachatryan
+</br></br></br></br>
+
+## Data Wrangler<a name="packagethree" />
+
+========================================================
+
+Name of DataWrangler: Abhimanyu Gupta</br>
+@wisc.edu Email of DataWrangler: adgupta2@wisc.edu</br>
+Group: CF</br>
+Team: red</br>
+
+Files Written by Me: <a name="f3" />
+--------------------
+
+
+Additional Contributions: <a name="ac3" />
+-------------------------
+
+
+Signature: <a name="s3" />
+----------
+Signature: Abhimnayu Gupta
+</br></br></br></br>
+## Integration Manager<a name="sql-games" />
+
+========================================================
+
+Name of IntegrationManager: Adilnur Istekov</br>
+@wisc.edu Email of IntegrationManager: istekov@wisc.edu</br>
+Group: CF</br>
+Team: Red Team</br>
+
+Complete List of Files: <a name="file-list" />
+-----------------------
+
+
+Instructions to Build, Run and Test your Project:<a name="run" />
+-------------------------------------------------
+Since this project uses GUI Swing and JFrame libraries, it is not possible to open the GUI with a make run command. 
+You would need to open the code outside the command line to use the frontend.
+
+To clone the repository
+```
+$ git clone https://github.com/KhachDavid/cs400-p2.git
+```
+
+To run the tests, you can run 
+```
+make test.
+```
+To run a specific test run:
+```
+make testFrontend
+```
+
+```
+make testBackend
+```
+	
+```
+make testData
+```
+
+To clear the .class files, run 
+```
+make clean. 
+```
+
+Team Member Contributions: <a name="tmc" />
+--------------------------
+
+
+Signature: Adilnur Istekov <a name="s4" />
+----------
+
+## Demo<a name="demo"/>
+
+[Link]⋮ </br>
+[Part 1]: # </br>
+[Part 2]: # </br>
+[Part 3]: # </br>
+
+Courtesy of David Khachatryan
