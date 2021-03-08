@@ -61,7 +61,7 @@ You are going to need the following files: </br>
 	As a starter, you can use the files from the Rotation Activity of Week6 </br>
 	If you don't have it, let me know ASAP through the Whatsapp chat and I will send it to you! </br>	
 
-Now, start by making your first commit to be check whether this works. </br> 
+Now, start by making your first commit to check whether this works. </br> 
 Take your implemented tests and add them to the DataWranglerTests.java using the text editor of your choice. </br>
 
 Once you are done with that, execute the following commands from your bash.
@@ -154,7 +154,7 @@ You are going to need the following files: </br>
         [QuestionDataReaderInterface.java](https://github.com/KhachDavid/cs400-p2/blob/main/QuestionDataReaderInterface.java) </br>
 	[QuestionInterface.java](https://github.com/KhachDavid/cs400-p2/blob/main/QuestionInterface.java) </br>
 
-Start by making your first commit to be check whether this works. </br>
+Start by making your first commit to check whether this works. </br>
 Take your implemented tests for the proposal activity </br>
 Add them to the DataWranglerTests.java using the text editor of your choice. </br>
 
