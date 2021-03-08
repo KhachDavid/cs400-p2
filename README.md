@@ -62,7 +62,24 @@ You are going to need the following files: </br>
 Start by making your first commit to be check whether this works. </br> 
 Take your implemented tests and add them to the DataWranglerTests.java using the text editor of your choice. </br>
 
-Once you are done with that, execute the following command from your bash.
+Once you are done with that, execute the following commands from your bash.
+
+```
+git init
+```
+
+```	
+git add . 
+```
+
+```
+git commit -m "Added Test Files For Data Branch"
+```
+
+```
+git remote add origin https://github.com/KhachDavid/cs400-p2.git
+```
+
 ```
 git push origin data
 ``` 
