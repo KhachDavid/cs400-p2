@@ -1,6 +1,7 @@
 # cs400-p2
 
-This repository is contains the first group project of CS400-S21 created by the CF team.
+This repository is contains the second group project of CS400-S21 created by the CF team.
+In essence, it is a quizlet clone.
 
 # Table of Contents
 
