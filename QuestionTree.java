@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Random;
@@ -82,6 +83,16 @@ public class QuestionTree extends RedBlackTree <String> {
         List<Question> qList = getQuestionList(topic);
         return qList.get(random.nextInt(qList.size()));
     }
+
+    public TopicNode getRandomTopic() {
+        int rnd = new Random().nextInt(this.size());
+        for (Node<String> node : this) {
+            if (rnd <= 0) return (TopicNode) node;
+            rnd--;
+        }
+        return (TopicNode) root; // Should not reach this line
+    }
+
 
     public void rateQuestion(Question question, String rating) {
         question.difficulty = rating;
