@@ -14,7 +14,6 @@ public class FrontEndDeveloperTests {
 		test.addQuestion(question);
 		String allQuestions = test.listAllQuestions();
 		assertEquals(allQuestions, question);
-		fail("Not Implemented");	
 	}
 	
 	/**
@@ -28,7 +27,6 @@ public class FrontEndDeveloperTests {
 	        test.removeQuestion(question);
   		String allQuestions = test.listAllQuestions();
                 assertEquals(allQuestions, question);
-		fail("Not Implemented");
 	}
 	
 	/**
@@ -44,7 +42,6 @@ public class FrontEndDeveloperTests {
 		assertEquals(message, "Wrong Answer");
 		message = test1.getUserAnswer("What is the capital city of Peru?", "Lima");		
 		assertEquals(message, "Hooray!!!");
-		fail("Not Implemented");
 	}
 	
 	/**
@@ -56,7 +53,6 @@ public class FrontEndDeveloperTests {
 		BackEndDummy test = new BackEndDummy();
 		String question = test.getQuestionFromATopic("History");
 		// assertEquals(question.topic, "History");		
-		fail("Not Implemented");
 	}
 	
 	/**
@@ -70,7 +66,6 @@ public class FrontEndDeveloperTests {
 		String rating = "easy";
 		test.rateQuestion(question, rating);
 		// assertEquals(question.rating, rating);
-		fail("Not Implemented");
 	}
 }
 
