@@ -1,6 +1,8 @@
-public class Main {
+import javafx.application.Application;
 
+public class Main {
     public static void main(String[] args) {
-	// write your code here
+        Application.launch(FrontEnd.class, args);
     }
 }
+

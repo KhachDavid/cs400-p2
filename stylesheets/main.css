@@ -1,0 +1,254 @@
+.root{
+    -fx-background-color: #fcb1b1;
+    -fx-font-family: 'DejaVu Serif', Georgia, "Times New Roman", Times, serif;
+}
+
+.label{
+    -fx-text-fill: #085f63;
+}
+
+.button:hover{
+    -fx-cursor: hand;
+}
+
+#--Submit-Your-Answer{
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+        linear-gradient(from 0% 93% to 0% 100%, #cb5bd9 0%, #c04acf 100%),
+        #de71eb,
+        #e07feb,
+        radial-gradient(center 50% 50%, radius 100%, #f5b5fc, #e994f2);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+}
+
+#--Submit-Your-Answer:hover {
+    -fx-background-color:
+        linear-gradient(from 0% 93% to 0% 100%, #cb5bd9 0%, #c04acf 100%),
+        #de71eb,
+        #e07feb,
+        radial-gradient(center 50% 50%, radius 100%, #f7cafc, #e994f2);
+}
+
+#--Submit-Your-Answer:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+
+#Submit-Your-Answer Text {
+    -fx-fill: white;
+    -fx-effect: dropshadow( gaussian , #a30000 , 0,0,0,2 );
+}
+
+#--Submit-And-Start-Adding-Questions{
+
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+        linear-gradient(from 0% 93% to 0% 100%, #cb5bd9 0%, #c04acf 100%),
+        #de71eb,
+        #e07feb,
+        radial-gradient(center 50% 50%, radius 100%, #f5b5fc, #e994f2);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+}
+
+#--Submit-And-Start-Adding-Questions:hover {
+    -fx-background-color:
+        linear-gradient(from 0% 93% to 0% 100%, #cb5bd9 0%, #c04acf 100%),
+        #de71eb,
+        #e07feb,
+        radial-gradient(center 50% 50%, radius 100%, #f7cafc, #e994f2);
+}
+
+#--Submit-And-Start-Adding-Questions:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+
+#--Submit-And-Start-Adding-Questions Text {
+    -fx-fill: white;
+    -fx-effect: dropshadow( gaussian , #a30000 , 0,0,0,2 );
+}
+
+#--Add-The-Question{
+
+    -fx-padding: 8 15 15 15;
+        -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+        -fx-background-radius: 8;
+        -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #cb5bd9 0%, #c04acf 100%),
+            #de71eb,
+            #e07feb,
+            radial-gradient(center 50% 50%, radius 100%, #f5b5fc, #e994f2);
+        -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+        -fx-font-weight: bold;
+        -fx-font-size: 1.1em;
+}
+
+#--Add-The-Question:hover {
+    -fx-background-color:
+        linear-gradient(from 0% 93% to 0% 100%, #cb5bd9 0%, #c04acf 100%),
+        #de71eb,
+        #e07feb,
+        radial-gradient(center 50% 50%, radius 100%, #f7cafc, #e994f2);
+}
+
+#--Add-The-Question:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+
+#--Add-The-Question Text {
+    -fx-fill: white;
+    -fx-effect: dropshadow( gaussian , #a30000 , 0,0,0,2 );
+}
+
+.hyperlink{
+    -fx-text-fill: #085f63;
+    -fx-background-size: 45px;
+    -fx-background-width: 45px;
+    -fx-background-length: 45px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 85%;
+}
+
+.menu-button{
+    -fx-color-one: #d6d6d6;
+    -fx-color-two: #d9d9d9;
+    -fx-color-three: #f6f6f6;
+
+    -fx-background-color:
+        linear-gradient(#f2f2f2, -fx-color-one),
+        linear-gradient(#fcfcfc 0%, -fx-color-two 20%, -fx-color-one 100%),
+        linear-gradient(#dddddd 0%, -fx-color-three 50%);
+    -fx-background-radius: 8, 7, 6;
+    -fx-background-insets: 0, 1, 2;
+    -fx-text-fill: #085f63;
+    -fx-effect: dropshadow( three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+}
+
+.menu-button:hover{
+    -fx-color-one: #981100;
+    -fx-color-two: #981100;
+    -fx-color-three: #981100;
+}
+
+.menu-button:pressed{
+    -fx-color-one: #235891;
+    -fx-color-two: #235891;
+    -fx-color-three: #235891;
+}
+
+#--Get-a-Hint{
+    -fx-color-one: #d6d6d6;
+    -fx-color-two: #d9d9d9;
+    -fx-color-three: #f6f6f6;
+
+    -fx-background-color:
+        linear-gradient(#f2f2f2, -fx-color-one),
+        linear-gradient(#fcfcfc 0%, -fx-color-two 20%, -fx-color-one 100%),
+        linear-gradient(#dddddd 0%, -fx-color-three 50%);
+    -fx-background-radius: 8, 7, 6;
+    -fx-background-insets: 0, 1, 2;
+    -fx-text-fill: #085f63;
+    -fx-effect: dropshadow( three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+}
+
+#--Get-a-Hint:hover{
+    -fx-color-one: #981100;
+    -fx-color-two: #981100;
+    -fx-color-three: #981100;
+}
+
+#--Get-a-Hint:pressed{
+    -fx-color-one: #235891;
+    -fx-color-two: #235891;
+    -fx-color-three: #235891;
+}
+
+#--Random-Topic{
+    -fx-color-one: #d6d6d6;
+    -fx-color-two: #d9d9d9;
+    -fx-color-three: #f6f6f6;
+
+    -fx-background-color:
+        linear-gradient(#f2f2f2, -fx-color-one),
+        linear-gradient(#fcfcfc 0%, -fx-color-two 20%, -fx-color-one 100%),
+        linear-gradient(#dddddd 0%, -fx-color-three 50%);
+    -fx-background-radius: 8, 7, 6;
+    -fx-background-insets: 0, 1, 2;
+    -fx-text-fill: #085f63;
+    -fx-effect: dropshadow( three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+}
+
+#--Random-Topic:hover{
+    -fx-color-one: #981100;
+    -fx-color-two: #981100;
+    -fx-color-three: #981100;
+}
+
+#--Random-Topic:pressed{
+    -fx-color-one: #235891;
+    -fx-color-two: #235891;
+    -fx-color-three: #235891;
+}
+
+#--List-All-Topics{
+    -fx-color-one: #d6d6d6;
+    -fx-color-two: #d9d9d9;
+    -fx-color-three: #f6f6f6;
+
+    -fx-background-color:
+        linear-gradient(#f2f2f2, -fx-color-one),
+        linear-gradient(#fcfcfc 0%, -fx-color-two 20%, -fx-color-one 100%),
+        linear-gradient(#dddddd 0%, -fx-color-three 50%);
+    -fx-background-radius: 8, 7, 6;
+    -fx-background-insets: 0, 1, 2;
+    -fx-text-fill: #085f63;
+    -fx-effect: dropshadow( three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+}
+
+#--List-All-Topics:hover{
+    -fx-color-one: #981100;
+    -fx-color-two: #981100;
+    -fx-color-three: #981100;
+}
+
+#--List-All-Topics:pressed{
+    -fx-color-one: #235891;
+    -fx-color-two: #235891;
+    -fx-color-three: #235891;
+}
+
+#--Activate-A-Random-Topic{
+    -fx-color-one: #d6d6d6;
+    -fx-color-two: #d9d9d9;
+    -fx-color-three: #f6f6f6;
+
+    -fx-background-color:
+        linear-gradient(#f2f2f2, -fx-color-one),
+        linear-gradient(#fcfcfc 0%, -fx-color-two 20%, -fx-color-one 100%),
+        linear-gradient(#dddddd 0%, -fx-color-three 50%);
+    -fx-background-radius: 8, 7, 6;
+    -fx-background-insets: 0, 1, 2;
+    -fx-text-fill: #085f63;
+    -fx-effect: dropshadow( three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+}
+
+#--Activate-A-Random-Topic:hover{
+    -fx-color-one: #981100;
+    -fx-color-two: #981100;
+    -fx-color-three: #981100;
+}
+
+#--Activate-A-Random-Topic:pressed{
+    -fx-color-one: #235891;
+    -fx-color-two: #235891;
+    -fx-color-three: #235891;
+}

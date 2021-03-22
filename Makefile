@@ -14,11 +14,8 @@ clean:
 	$(RM) *.class
 	$(RM) *~
 
-
-MAIN = # fill in the main class
-
 all: compile
-	java $(MAIN)
+	java Main
 
 compile: *.java
 	javac *.java
