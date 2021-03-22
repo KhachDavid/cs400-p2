@@ -7,46 +7,6 @@ import java.io.IOException;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-//class Data
-//{
-//  private Integer id;
-//  private String question;
-//  private String options;
-//  private String answer;
-//  private String explanation;
-//
-//  public Data(Integer id,String question,String options, String answer, String explan) {
-//    this.id = id;
-//    this.question = question;
-//    this.options = options;
-//    this.answer = answer;
-//    explanation = explan;
-//  }
-//
-//  int getId(){
-//    return 0;
-//  }
-//  String getQuestion(){
-//    return null;
-//  }
-//  String getOptions(){
-//    return null;
-//  }
-//  String getAnswer(){
-//    return null;
-//  }
-//  String getExplanation(){
-//    return null;
-//  }
-//
-//  void setId(){};
-//  void setQuestion(){};
-//  void setOptions(){};
-//  void setCorrect(){};
-//  void setExplanation(){};
-//}
-
-
 public class DataWranglerTests {
 
   //Tests whether question  returned properly.
