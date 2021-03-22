@@ -1,4 +1,3 @@
-import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class Question {
@@ -17,5 +16,21 @@ public class Question {
         this.id = count.incrementAndGet();
         this.topic = topic;
     }
-}
+    
+  /**
+   * Override method to define a new way of comparing two question objects.
+   * @param o the object to compare with.
+   * @return a boolean representing whether two Questions are equal or not.
+   */
+  @Override
+  public boolean equals(Object o) {
+    Question a = (Question) o;
+    if (getQuestion().equals(a.getQuestion())) {
+      return true;
+    }
+    else {
+      return false;
+    }
+  }
 
+}

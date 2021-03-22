@@ -1,4 +1,3 @@
-
 test: DataWranglerTests.class BackEndDeveloperTests.class FrontEndDeveloperTests.class
 	java -jar junit5.jar -cp . --scan-classpath
 

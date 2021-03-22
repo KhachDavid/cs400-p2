@@ -1,9 +1,9 @@
 import java.util.List;
 
+/**
+ * QuestionInterface with getters.
+ */
 public interface QuestionInterface {
-    int getId();
-    String getQuestion();
-    List<String> getOptions();
-    String getAnswer();
+
 }
 

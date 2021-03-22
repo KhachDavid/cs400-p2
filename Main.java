@@ -5,3 +5,4 @@ public class Main {
         Application.launch(FrontEnd.class, args);
     }
 }
+
