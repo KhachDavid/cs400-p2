@@ -706,20 +706,25 @@ public class FrontEnd extends Application {
             Label searchTerm = addTextLabels(removeQuestionParent, "Choose A Topic First!", FrontEndUtil.black, FrontEndUtil.largeFont, "", 0, 0);
         }
         int counter2 = 1;
-        for (int i = back.questionList.size() - 1; i >= 0; i--) {
+        for (int i = 0; i < back.questionList.size(); i++) {
             try {
                 if (back.questionList.get(i).topic.equals(currentTopic)) {
 
                     // Remove Question Button
                     Button removeQuestionButton = createButton(removeQuestionParent, "Remove", "", 1, counter2, Optional.empty());
 
-                    int finalI = i;
+                    int finalCounter = i;
                     removeQuestionButton.setOnAction(e -> {
                         //TODO Extremely Inefficient...Needs to be fixed
-                        //deleteRow(removeQuestionParent, finalCounter);
-                        back.removeQuestion(back.questionList.get(finalI));
-                        removeQuestionPanel(true);
-                        removeQuestion.close();
+                        try {
+                            back.removeQuestion(back.questionList.get(finalCounter));
+                        }
+                        catch (IndexOutOfBoundsException exception){
+                            deleteRow(removeQuestionParent, finalCounter);
+                        }
+                        deleteRow(removeQuestionParent, finalCounter);
+                        //removeQuestionPanel(true);
+                        //removeQuestion.close();
                     });
 
                     // Add Text Field
@@ -871,7 +876,7 @@ public class FrontEnd extends Application {
         HBox parentTopChild = new HBox();
         parentTopChild.setSpacing(20);
         parentTopChild.setPadding(new Insets(5, 5, 5, 5)); // add padding
-        createChangeTopicMenu(parentTopChild, topicChild);
+        createChangeTopicMenu(parentTopChild, topicChild, topicParent);
         mainParent.setTop(parentTopChild);
 
         Label searchTerm = addTextLabels(topicParent, "Search For A Topic", FrontEndUtil.black, FrontEndUtil.largeFont, "", 0, 0);
@@ -879,8 +884,9 @@ public class FrontEnd extends Application {
 
         // Scroll Pane Config
         ScrollPane scrollPane = new ScrollPane(topicParent);
-        scrollPane.setPrefSize(600, 200);
+        //scrollPane.setPrefSize(600, 200);
         scrollPane.setContent(topicParent);
+        scrollPane.setVisible(true);
         scrollPane.setFitToHeight(true);
         scrollPane.setPannable(true);
         scrollPane.setHbarPolicy(ScrollPane.ScrollBarPolicy.AS_NEEDED);
@@ -921,11 +927,18 @@ public class FrontEnd extends Application {
         changeTopic.setScene(scene);
     }
 
-    private void createChangeTopicMenu(HBox parentTopChild, GridPane topicChild) {
+    private void createChangeTopicMenu(HBox parentTopChild, GridPane topicChild, GridPane topicParent) {
         Button allQuestionsButton = createButton(parentTopChild, "List All Topics", "right",  0,0, Optional.empty());
         Button randomButton = createButton(parentTopChild, "Activate A Random Topic", "right",  0,0, Optional.empty());
 
         allQuestionsButton.setOnAction(e -> {
+            ScrollPane scrollPane = new ScrollPane(topicParent);
+            //scrollPane.setPrefSize(600, 200);
+            scrollPane.setContent(topicParent);
+            scrollPane.setVisible(true);
+            scrollPane.setFitToHeight(true);
+            scrollPane.setPannable(true);
+            scrollPane.setHbarPolicy(ScrollPane.ScrollBarPolicy.AS_NEEDED);
             int counterColumn = 0;
             int counterRow = 0;
             for (Topic t : back.topicList) {
