@@ -194,7 +194,7 @@ Additional Contributions: <a name="ac3" />
 
 Signature: <a name="s3" />
 ----------
-Signature: Abhimnayu Gupta
+Signature: Abhimanyu Dev Gupta
 </br></br></br></br>
 ## Integration Manager<a name="sql-games" />
 
